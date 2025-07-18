@@ -1,0 +1,6 @@
+train: ./Penn_Action/dataset/images/train
+val: ./Penn_Action/dataset/images/val
+
+nc: 1
+names: ['person']
+kpt_shape: [13,3]
