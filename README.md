@@ -89,6 +89,8 @@ The STRIKE framework is built using modern computer vision and machine learning 
 - **Reproducible Results:**  
   - All experiments, evaluation scripts, and result visualizations integrated in `strike.ipynb`.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Getting Started
@@ -114,6 +116,8 @@ The STRIKE framework is built using modern computer vision and machine learning 
    - Run filtering/evaluation.
    - Inspect tables and visualizations.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Results Summary
@@ -130,6 +134,8 @@ The STRIKE framework is built using modern computer vision and machine learning 
 **Top MPJPE Improvement:** Up to 92% reduction in select outlier sequences.  
 **Real-World Speed:** 9,160 Muay Thai frames filtered in under 5 minutes on consumer hardware.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Roadmap
