@@ -59,9 +59,6 @@ Key components of the STRIKE pipeline:
 
   3. **Performance Evaluation:** Analyzes improvements in mean joint error (MPJPE) and detection reliability (F1-Score), including both benchmark testing on the Penn Action dataset and real-world footage.
 
----
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 The STRIKE framework is built using modern computer vision and machine learning technologies.
@@ -89,8 +86,8 @@ The STRIKE framework is built using modern computer vision and machine learning 
 - **Reproducible Results:**  
   - All experiments, evaluation scripts, and result visualizations integrated in `strike.ipynb`.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Getting Started
@@ -118,6 +115,7 @@ The STRIKE framework is built using modern computer vision and machine learning 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Results Summary
@@ -136,6 +134,7 @@ The STRIKE framework is built using modern computer vision and machine learning 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Roadmap
