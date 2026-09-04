@@ -34,7 +34,6 @@
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#results-summary">Results Summary</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -132,26 +131,6 @@ The STRIKE framework is built using modern computer vision and machine learning 
 **Top MPJPE Improvement:** Up to 92% reduction in select outlier sequences.  
 **Real-World Speed:** 9,160 Muay Thai frames filtered in under 5 minutes on consumer hardware.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Roadmap
-
-While STRIKE already demonstrates practical gains on both benchmark and real-world Muay Thai data, future work includes:
-
- - [ ] ⚙️ Live inference testing on real-time edge devices
-
- - [ ] 🤖 Integration into referee-assist or coaching systems
-
- - [ ] 🚀 Adaptation of advanced or learning-based motion models for ballistic strikes
-
- - [ ] 🦿 Extension to 3D pose estimation pipelines
-
- - [ ] 📦 Modular support for other detectors (e.g., OpenPose, MoveNet)
-
-See the [open issues](https://github.com/alexispfp/strike/issues) for a full list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
