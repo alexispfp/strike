@@ -1,14 +1,12 @@
 matplotlib
 numpy
+joblib
 opencv-python-headless
 pandas
-requests
 scipy
 seaborn
 tqdm
-yt-dlp
 ultralytics
 jupyterlab
 ipykernel
-cupy-cuda12x
-torch==2.3.1+cu121
+torch
