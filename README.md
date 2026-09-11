@@ -119,16 +119,13 @@ The STRIKE framework is built using modern computer vision and machine learning 
 
 ## Results Summary
 
-| Metric               | Value                |
-|----------------------|---------------------|
-| Sequences Processed  | 2,326               |
-| Mean Raw YOLO MPJPE  | 76.06 pixels        |
-| Mean Filtered MPJPE  | 75.37 pixels        |
-| Accuracy Improvement | 0.91%               |
-| Mean Raw F1-Score    | 0.4280              |
-| Mean UKF F1-Score    | 0.4221              |
-
-**Top MPJPE Improvement:** Up to 92% reduction in select outlier sequences.  
+ Metric | Raw YOLOv11s | UKF Filtered | Relative Change |
+---|---|---|---|
+ MPJPE (px) | 54.7838 | 54.6415 | 0.26% Reduction |
+ PCK@25px | 0.3986 | 0.3965 | -0.53% Drop |
+ F1 Score | 0.3384 | 0.3377 | -0.19% Drop |
+ Temporal Jitter | 15.1701 | 11.0513 | 27.15% Reduction |
+  
 **Real-World Speed:** 9,160 Muay Thai frames filtered in under 5 minutes on consumer hardware.
 
 
