@@ -56,7 +56,7 @@ Key components of the STRIKE pipeline:
 
   2. **Temporal Filtering:** Applies a UKF to each joint’s 2D trajectory using a 5D state model: $[x, y, v, \theta, \omega]^T$.
 
-  3. **Performance Evaluation:** Analyzes improvements in mean joint error (MPJPE) and detection reliability (F1-Score), including both benchmark testing on the Penn Action dataset and real-world footage.
+  3. **Performance Evaluation:** Analyzes mean joint error (MPJPE), detection reliability (F1-Score), percentage of correct keypoints @ 25px (PCK@25) and jitter, including both benchmark testing on the Penn Action dataset and real-world footage.
 
 ### Built With
 
@@ -79,7 +79,7 @@ The STRIKE framework is built using modern computer vision and machine learning 
   - **Evaluation:** Automated benchmarking (MPJPE and F1-Score), with qualitative visualization.
 
 - **Benchmark-Backed:**  
-  - Processes 2,326 Penn Action sequences, with improvements in MPJPE on 1,135 and F1-Score in 747 sequences.
+  - Processes 2,326 Penn Action sequences, with improvements on jitter.
   - Real-world test: 9,160-frame Muay Thai video processed in 4m 30.3s (RTX 3060, Ryzen 5 2600, 32GB RAM).
 
 - **Reproducible Results:**  
@@ -94,7 +94,7 @@ The STRIKE framework is built using modern computer vision and machine learning 
 **Prerequisites:**
 - Python 3.12+
 - Recommended: Virtual environment (conda or venv)
-- Notebook dependencies listed in `environment.yml` (or see notebook cell 1).
+- Notebook dependencies listed in `requirements.txt` (or see notebook cell 1).
 
 **Setup:**
 ```sh
