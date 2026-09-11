@@ -209,6 +209,8 @@ __marimo__/
 /YOLO-Training/Penn_Action
 /runs
 yolo11m-pose.pt
+yolo11s-pose.pt
 yolo11n.pt
 draft.ipynb
+treino1.mp4
 treino2.mp4
